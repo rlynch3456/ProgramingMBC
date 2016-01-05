@@ -30,7 +30,7 @@ public class AreaCalc_withInput {
 			
 			/* We only want a radius that is positive */
 			if(area != 0)
-				System.out.println("Area = " + area);
+				System.out.println("Area or cirle with radius of " + radius + " is " + area);
 			else
 				System.out.println("Invalid radius");
 		}
