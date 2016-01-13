@@ -27,7 +27,7 @@ public class AreaCalc_simple {
 			Otherwise, print out the area.
 		*/	
 		if(area != 0)
-			System.out.println("Area = " + area);
+			System.out.println("Area of a circle with radius of " + radius + " is " + area);
 		else
 			System.out.println("Invalid radius");
 		
