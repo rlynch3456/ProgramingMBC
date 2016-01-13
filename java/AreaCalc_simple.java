@@ -45,7 +45,7 @@ public class AreaCalc_simple {
 		if(radius <= 0){
 			return 0;
 		}
-		/* Otherwise, calculate the area of the rectangle, and return. */
+		/* Otherwise, calculate the area of the circle, and return. */
 		else{
 			double area = radius * radius * Math.PI;
 			return area;
