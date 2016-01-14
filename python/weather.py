@@ -63,7 +63,7 @@ def main():
         #    Then, write a function that takes two parameters, the temperature and wind speed
         #    and this will return the wind chill factor.  The formula for the wind chill factor is:
         #    
-        #    Wind Chill = 35.74 + 0.6215T – 35.75(V^0.16) + 0.4275T(V^0.16)
+        #    Wind Chill = 35.74 + 0.6215T - 35.75(V^0.16) + 0.4275T(V^0.16)
         #    
         #    Where T is the temperature in degrees F and V is the windspeed in miles per hour.
         #    
