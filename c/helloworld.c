@@ -28,7 +28,7 @@ int main(void)
 {
 	/* print a couple lines of text to the display. */
 	printf("Hello World\n");
-	printf("Goodby World\n");
+	printf("Goodbye World\n");
 	
 	/*
 		Exit the program and return a value of zero.  This usually indicates
