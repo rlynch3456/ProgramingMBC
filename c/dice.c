@@ -18,7 +18,7 @@
     roll a 7 with a pair of dice:
     (1 and 6), (2 and 5), (3 and 4), (4 and 3), (5 and 2), (6 and 1).
 
-    The first simulation is completely codded.  The exercise for the student
+    The first simulation is completely coded.  The exercise for the student
     is to build on the existing code, and show how to simulate tossing a pair
     of dice and adding them up.
 */
@@ -48,7 +48,7 @@ int rollDie(int min, int max)
 int main(int argc, char** argv)
 {
     /* local variables used */
-    int buckets[13] = {0};  // This notation will initialize the array to zero
+    unsigned int buckets[13] = {0};  // This notation will initialize the array to zero
     int i;                  // A counting variable for looping
     int roll;               // The outcome of a single roll.
 
