@@ -8,18 +8,21 @@ CFLAGS  = -g -Wall
 
 # the build target executable:
 
-PROG_LIST = helloworld dice
+PROG_LIST = helloworld dice area
 
 all: $(PROG_LIST)
 
 #$(TARGET):
 #	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).c
-	
+
 helloworld: helloworld.c
 	$(CC) $(CFLAGS) -o helloworld helloworld.c
-	
+
 dice: dice.c
 	$(CC) $(CFLAGS) -o dice dice.c
+
+area: area.c
+	$(CC) $(CFLAGS) -o area area.c
 
 clean:
 	$(RM) $(PROG_LIST)
