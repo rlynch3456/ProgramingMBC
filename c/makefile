@@ -8,7 +8,7 @@ CFLAGS  = -g -Wall
 
 # the build target executable:
 
-PROG_LIST = helloworld dice area
+PROG_LIST = helloworld dice area branching
 
 all: $(PROG_LIST)
 
@@ -23,6 +23,9 @@ dice: dice.c
 
 area: area.c
 	$(CC) $(CFLAGS) -o area area.c
+
+branching: branching.c
+	$(CC) $(CFLAGS) -o branching branching.c
 
 clean:
 	$(RM) $(PROG_LIST)
