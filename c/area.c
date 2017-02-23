@@ -29,17 +29,17 @@
     Let's make some test cases to make sure that our function is working
     correctly.
     
-    Assume that our function is called Area.
+    Assume that our function is called AreaRect.
     We know that the area of a 2x3 rectangle shoudl be 6, so we could
     have a test like this
     
     int area;
     
-    area = Area(2,3);
+    area = AreaRect(2,3);
     
     Now check the result
     
-    if(Area != 6)
+    if(area != 6)
         printf("Error\n");
         
     What other tests could we do?  Could the area be zero or a negative number?
