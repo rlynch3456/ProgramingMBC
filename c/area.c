@@ -21,25 +21,27 @@
     
     The function should check for invalid input.  Can a rectangle
     have a negative or zero area?  Hmmm, I do not think so.  The
-    function should check for incorect input values and return error.
+    function should check for incorrect input values and return error.
 */
+
+// ToDo: Write your function here, maybe call it AreaRect
 
 
 /*
     Let's make some test cases to make sure that our function is working
     correctly.
     
-    Assume that our function is called Area.
+    Assume that our function is called areaRect.
     We know that the area of a 2x3 rectangle shoudl be 6, so we could
     have a test like this
     
     int area;
     
-    area = Area(2,3);
+    area = areaRect(2,3);
     
     Now check the result
     
-    if(Area != 6)
+    if(areaRect != 6)
         printf("Error\n");
         
     What other tests could we do?  Could the area be zero or a negative number?
@@ -50,7 +52,7 @@
 
 */
 
-int testArea(void)
+int testArea(int width, int height)
 {
     int ERROR = 0;
     
