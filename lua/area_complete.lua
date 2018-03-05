@@ -114,7 +114,7 @@ print("Area: ", area)
     Here we are creating a string, and formatting it.  This is a little more advanced,
     but you can copy and paste for your needs.
 --]]
-print(string.format("Area of a rectangle with a side of %d is %d", side, area))
+print(string.format("Area of a square with a side of %d is %d", side, area))
 
 width = 2
 length = 3
