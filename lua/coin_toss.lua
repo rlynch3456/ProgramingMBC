@@ -47,5 +47,5 @@ for i = 1, loops do
 end
 
 -- print out the results
-print("For " .. loops)
+print("For " .. loops .. " tosses")
 print(heads .. " heads and " .. tails .. " tails")
